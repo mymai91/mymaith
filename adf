@@ -1,0 +1,174 @@
+
+<section class="container-fluid">
+  <div class="bg-part row"><h2 class="text-center">About me</h2></div>
+  <div class="row block">
+    <div class="col-md-3 col-md-offset-3">
+      <h3>The Basic</h3>
+    </div>
+    <div class="col-md-6 has-background">
+      I am a Web Developer with two years of experience.
+    </div>
+  </div>
+  <div class="row block">
+    <div class="col-md-6 has-background">
+      <div class="row">
+        <div class="col-sm-5">
+          <img class="avatar img-circle" src="images/mymai.jpg" alt="my mai">
+        </div>
+        <div class="col-sm-7">
+          <h3>Personal Info</h3>
+          <p>Name : My Mai</p>
+          <p>Age : 24 Years Old</p>
+          <p>Email : my.maithi@gmail.com</p>
+          <p>Address : Da Nang, Vietnam</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 text-right">
+      <h3>My Story</h3>
+    </div>
+  </div>
+
+  <div class="row block">
+    <div class="col-md-3 col-md-offset-3">
+      <h3>Hobby</h3>
+    </div>
+    <div class="col-md-6 has-background">
+      <div class="row">
+        <div>Reading</div>
+        <div>Hiking</div>
+        <div>Music</div>
+        <div>Photography</div>
+        <div>Social activities</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row block">
+    <div class="col-md-6 has-background">
+      <div>Reading</div>
+      <div>Hiking</div>
+      <div>Music</div>
+      <div>Photography</div>
+      <div>Social activities</div>
+    </div>
+    <div class="col-md-3 text-right">
+      <h3>Social activities</h3>
+    </div>
+  </div>
+
+</section>
+
+<section class="container-fluid">
+  <div class="bg-part row"><h2 class="text-center">Experience</h2></div>
+
+  <div class="row block">
+    <div class="col-md-6 time has-background">
+      <h3>Job</h3>
+      <div class="item">
+        <p>2014-2015</p>
+      </div>
+      <div class="item">
+        <p>2013-2014</p>
+      </div>
+      <div class="item">
+        <p>2013</p>
+      </div>
+    </div>
+    <!-- <div class="line"></div> -->
+    <div class="col-md-6 detail">
+      <div class="item agility">
+        <div class="logo"></div>
+        <div class="content">
+          <p><big>vi tri</big></p>
+          <p><small>name project</small></p>
+          <p></p>
+        </div>
+      </div>
+      <div class="item agility">
+        <div class="logo"></div>
+        <div class="content">
+          <p><big>vi tri</big></p>
+          <p><small>name project</small></p>
+          <p></p>
+        </div>
+      </div>
+      <div class="item agility">
+        <div class="logo"></div>
+        <div class="content">
+          <p><big>vi tri</big></p>
+          <p><small>name project</small></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row block">
+    <div class="col-md-6 detail">
+      <div class="item agility">
+        <div class="logo"></div>
+        <div class="content">
+          <p><big>vi tri</big></p>
+          <p><small>name project</small></p>
+          <p></p>
+        </div>
+      </div>
+      <div class="item agility">
+        <div class="logo"></div>
+        <div class="content">
+          <p><big>vi tri</big></p>
+          <p><small>name project</small></p>
+          <p></p>
+        </div>
+      </div>
+      <div class="item agility">
+        <div class="logo"></div>
+        <div class="content">
+          <p><big>vi tri</big></p>
+          <p><small>name project</small></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="line"></div> -->
+    <div class="col-md-6 time has-background">
+      <h3>Honors &amp; Awards</h3>
+      <div class="item">
+        <p>2014-2015</p>
+      </div>
+      <div class="item">
+        <p>2013-2014</p>
+      </div>
+      <div class="item">
+        <p>2013</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid">
+  <div class="bg-part row"><h2 class="text-center">Blog</h2></div>
+  <div class="row block">
+    <div class="col-md-3 col-md-offset-3">
+      <h3>See me at</h3>
+    </div>
+    <div class="col-md-6 kipalog">
+      <a href="http://kipalog.com/users/MyMai/mypage">
+        <img src="images/kipalog.jpg" alt="kipalog">
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid">
+  <div class="bg-part row"><h2 class="text-center">Contact</h2></div>
+  <div class="row block">
+    <div class="email"></div>
+    <div class="phone"></div>
+    <div class="twitter"></div>
+    <div class="gitter"></div>
+    <div class="instagram"></div>
+  </div>
+</section>

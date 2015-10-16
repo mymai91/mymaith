@@ -1,0 +1,190 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.welcome {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 140px;
+  position: relative;
+  z-index: 2;
+  padding: 20px 0;
+  .col {
+    display: inline-block;
+    float: left;
+    padding: 0 20px;
+  }
+  h1 {
+    margin: 0;
+  }
+  h2,
+  h3 {
+    color: #fff;
+  }
+  .avatar {
+    @include size(100px, 100px);
+  }
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.home {
+  @include size(100%, 100%);
+  position: absolute;
+  background-image: url(../images/bg-mymai.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.main-menu {
+  clear: both;
+  li {
+    float: left;
+    list-style: none;
+    height: 100%;
+    position: relative;
+    width: 25%;
+    &:hover {
+      transition: background-color 0.7s;
+      background-color: rgba(0, 0, 0, 0.5);
+      .background {
+        transition: transform 0.7s;
+        transform: translateY(-60%);
+      }
+      .top {
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-top: 0;
+        h2 {
+          bottom: 0;
+          padding-bottom: 50%;
+        }
+      }
+      .content-wrap {
+        @include size(100%, 100%);
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}
+
+.main-menu {
+  position: relative;
+  height: 100%;
+  padding:0;
+  .director {
+    @include size(100%, 100%);
+    display: block;
+    position: absolute;
+    z-index: 2;
+  }
+}
+
+.background {
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  a {
+    color: #fff;
+  }
+  .top {
+    margin-top: 50%;
+    height: 100%;
+    h2 {
+      position: absolute;
+      width: 100%;
+    }
+  }
+}
+
+.content-wrap {
+  color: #fff;
+  h3 {
+    margin: 0;
+  }
+}
+
+.my-self .item {
+  border-bottom: 2px solid #fff;
+  height: 145px;
+  p {
+    font-size: 32px;
+    padding: 40px;
+  }
+}
+
+.detail-menu,
+.wrap-detail {
+  font-size: 18px;
+}
+
+.wrap-detail {
+  padding-top: 50px;
+  h2 {
+    font-size: 52px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 45px;
+  }
+
+  .bg-part {
+    background: url(../images/pattern.png) repeat;
+    opacity: 0.8;
+    background-color: #fff;
+    color: #fff;
+  }
+
+  .has-background {
+    background-color: #eee;
+  }
+
+  .block {
+    align-items: stretch;
+    display: flex;
+    > div {
+      padding: 70px;
+    }
+    .fa-5 {
+      font-size: 55px;
+    }
+    h3 {
+      margin-top: 0;
+    }
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .hobby {
+    .fa-5 {
+      display: block;
+      padding-bottom: 10px;
+    }
+  }
+
+  .kipalog {
+    background-color: #1e7145;
+    padding: 0;
+    a {
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+.item {
+  .content {
+    padding-left: 25px;
+  }
+}
